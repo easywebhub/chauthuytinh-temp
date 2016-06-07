@@ -1,0 +1,85 @@
+{{#extend "default"}}
+  {{#content "main"}}
+  <div class="wrapper">
+    <div class="mainclass">
+        <div id="main" class="grid-block">
+            <div id="maininner" class="grid-box">
+                <section id="content">
+                    <div class="grid-block">
+                        <div id="system-message-container">
+                        </div>
+                        <!-- Start K2 Category Layout -->
+                        <div id="k2Container" class="itemListView">
+                            <!-- Blocks for current category and subcategories -->
+                            <div class="itemListCategoriesBlock">
+                            </div>
+                            <!-- Item list -->
+                            <div class="itemList">
+                                <!-- Primary items -->
+                                <div id="itemListPrimary">
+                                      {{#each collections.chauthuytinhcaocap}}
+                                    <div class="itemContainer" style="width:32.0%;">
+                                        <!-- Start K2 Item Layout -->
+                                      
+                                        <div class="catItemView groupPrimary">
+                                            <!-- Plugins: BeforeDisplay -->
+                                            <!-- K2 Plugins: K2BeforeDisplay -->
+                                            <div class="catItemHeader">
+                                                <!-- Item title -->
+                                                <h3 class="catItemTitle">
+            
+                            <a href="/{{path}}" style="font-weight:bold" title="chauthuytinh.com | chau go | chau go nho | chau go trung | chau go lon | chai thuy tinh | binh thuy tinh">
+            {{this.title}}      </a>
+                    
+        
+              </h3>
+                                            </div>
+                                            <!-- Plugins: AfterDisplayTitle -->
+                                            <!-- K2 Plugins: K2AfterDisplayTitle -->
+                                            <div class="catItemBody">
+                                                <!-- Plugins: BeforeDisplayContent -->
+                                                <!-- K2 Plugins: K2BeforeDisplayContent -->
+                                                <!-- Item Image -->
+                                                <div class="catItemImageBlock">
+                                                    <span class="catItemImage">
+                    <a href="/{{path}}">
+                <img src="/{{this.img}}" alt="Chậu Thủy Tinh C040" style="width:300px; height:auto;" />
+            </a>
+                  </span>
+                                                </div>
+                                                <!-- Plugins: AfterDisplayContent -->
+                                                <!-- K2 Plugins: K2AfterDisplayContent -->
+                                            </div>
+                                            <!-- Plugins: AfterDisplay -->
+                                            <!-- K2 Plugins: K2AfterDisplay -->
+                                            <div class="itempricek2">
+                                                <span id="product_price_609" class="product_price"><span style="color:black;">Giá:</span> {{this.price-old}} </span>
+                                            </div>
+                                        </div>
+                                        <!-- End K2 Item Layout -->
+                                        {{/each}}
+                                    </div>
+
+
+                                   
+                                  
+                                </div>
+                            </div>
+                            <!-- Pagination -->
+                        </div>
+                        <!-- End K2 Category Layout -->
+                        <!-- JoomlaWorks "K2" (v2.6.7) | Learn more about K2 at http://getk2.org -->
+                    </div>
+                </section>
+            </div>
+            <!-- maininner end -->
+        </div>
+    </div>
+    <!-- main end -->
+   {{> innerbottom}}
+                                            
+        </div>
+
+
+  {{/content}}
+{{/extend}}
