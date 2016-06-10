@@ -1,4 +1,4 @@
----json
+﻿---json
 {  
    "title":"Chậu Thủy Tinh CMT03",
    "url":"chau-thuy-tinh-test",
@@ -12,7 +12,7 @@
    "productid":"CTM09",
    "source":"Mỹ,Úc,Thái Lan.....",
    "rule":"1 chậu/1 hộp sản phẩm",
-   "fit":"Marimo"
+   "fit":"Marimo",
    "price-old":"35.000",
    "img":"media/k2/items/cache/cb9c495b17bc28a44ffb50c55572ed63_S.jpg",
    "product":[  

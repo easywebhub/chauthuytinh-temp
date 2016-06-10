@@ -5,6 +5,6 @@
 "description": "Châu thủy tinh cao cấp",
 "layout": "chau-thuy-tinh-cao-cap.html",
 "permalink": true,
-"function": "home",
+"function": "home"
 }
 ---

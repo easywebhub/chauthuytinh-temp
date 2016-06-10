@@ -1,9 +1,9 @@
 ---json
 {
-"title": "Chau thuy tinh",
+"title": "Châu thủy tinh",
 "description": "Châu thủy tinh",
 "layout": "chau-thuy-tinh.html",
 "permalink": true,
-"function": "home",
+"function": "home"
 }
 ---

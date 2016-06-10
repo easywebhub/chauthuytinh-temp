@@ -114,7 +114,27 @@ site.metalsmith = {
             'reverse': true,
              'limit':   10
            
-        }
+        },
+        'lythuytinh':{
+            'pattern': 'lythuytinh/**/*.html',             
+            'sortBy':  'date',
+            'reverse': true,
+             'limit':   10
+           
+        },
+        'chaucaygo':{
+            'pattern': 'chaucaygo/**/*.html',             
+            'sortBy':  'date',
+            'reverse': true,
+             'limit':   10
+           
+        },
+         'phulieu':{
+            'pattern': 'phulieu/**/*.html',             
+            'sortBy':  'date',
+            'reverse': true,
+             'limit':   10
+                }
     },
 
     'metalsmith-permalinks':    {

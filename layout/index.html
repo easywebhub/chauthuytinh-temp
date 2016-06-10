@@ -1,12 +1,236 @@
-{{#extend "default"}}
+{{#extend "default"}} 
 
-  {{#content "main"}}
+{{#content "main"}}
+<div class="wrapper">
+    
+    <section id="cth" class="grid-block">
 
- 
+   
+        <div class="grid-block bg">
+            <div class="tbdiv">
+                <div class="col1dv">
+                    <h2 class="grid-box-title"><a href="http://localhost:8088/chai-thuy-tinh/" title="ChauThuyTinh.Com | Chai Thủy Tinh | Chậu Thủy Tinh Marimo | Chậu Thủy Tinh Treo | Bình Thủy Tinh Treo | Lọ Thủy Tinh Treo">Chai thủy tinh</a></h2>
+                </div>
+                <div class="col3dv">
+                    <p>
+                        <a href="http://localhost:8088/chai-thuy-tinh/" title="chai thủy tinh | chậu thủy tinh | chậu thủy tinh treo | Bình thủy tinh treo | lọ thủy tinh treo">Xem Tất Cả</a>
+                    </p>
+                </div>
+            </div>
+            {{#each collections.chaithuytinh}}
+            <div class="grid-box" style="width:321px; padding-left: 4px;">
+                <div class="module mod-line2  deepest">
+                    <div class="imgctt">
+                        <div>
+                            <a href="/{{path}}"><img src="/{{this.img}}" border="0" alt="chau thuy tinh | binh thuy tinh | lo thuy tinh | chai thuy tinh | be ca mini | be nuoi ca| chau nuoi ca | binh nuoi ca | lo nuoi ca | chau trong cay trong nuoc | binh trong cay trong nuoc | chau thuy tinh tieu canh | chau thuy tinh cam hoa | chau thuy tinh trang tri" title="Chậu thủy tinh cao cấp | Bình thủy tinh cao cấp | lọ thủy tinh cao cấp | chai thủy tinh | bể cá mini | bể nuôi cá | chậu nuôi cá | bình nuôi cá | lọ nuôi cá | Chai Thủy Tinh CH01" /></a>
+                            <a class="btxem" href="/{{path}}" title="Chai Thủy Tinh| Chậu Thủy Tinh | Chậu Thủy Tinh Treo | Chai Thủy Tinh CH01"></a>
+                        </div>
+                        <h3 style="text-align: center; margin: 0;"><a href="/{{path}}" title="Chai Thủy Tinh| Chậu Thủy Tinh | Chậu Thủy Tinh Treo | Chai Thủy Tinh CH01">Chai Thủy Tinh <strong>{{this.productid}}</strong></a></h3>
+                        <p style="text-align: center;"><span style="font-size: 14px;">Giá: <strong><span style="color: #ff0000;">{{this.price-old}} VND</span></strong>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+             {{/each}}
+            
+            <div class="grid-box" style="width:321px; padding-left: 4px;"></div>
+            <br /> </div>
+          
+        
+    </section>
+
+<!--start lythuytinh-->
+    <section id="cth" class="grid-block">
+
+   
+        <div class="grid-block bg">
+            <div class="tbdiv">
+                <div class="col1dv">
+                    <h2 class="grid-box-title"><a href="http://localhost:8088/ly-thuy-tinh/" title="ChauThuyTinh.Com | Chai Thủy Tinh | Chậu Thủy Tinh Marimo | Chậu Thủy Tinh Treo | Bình Thủy Tinh Treo | Lọ Thủy Tinh Treo">Ly Thủy Tinh</a></h2>
+                </div>
+                <div class="col3dv">
+                    <p>
+                        <a href="http://localhost:8088/ly-thuy-tinh/" title="chai thủy tinh | chậu thủy tinh | chậu thủy tinh treo | Bình thủy tinh treo | lọ thủy tinh treo">Xem Tất Cả</a>
+                    </p>
+                </div>
+            </div>
+            {{#each collections.lythuytinh}}
+            <div class="grid-box" style="width:321px; padding-left: 4px;">
+                <div class="module mod-line2  deepest">
+                    <div class="imgctt">
+                        <div>
+                            <a href="/{{path}}"><img src="/{{this.img}}" border="0" alt="chau thuy tinh | binh thuy tinh | lo thuy tinh | chai thuy tinh | be ca mini | be nuoi ca| chau nuoi ca | binh nuoi ca | lo nuoi ca | chau trong cay trong nuoc | binh trong cay trong nuoc | chau thuy tinh tieu canh | chau thuy tinh cam hoa | chau thuy tinh trang tri" title="Chậu thủy tinh cao cấp | Bình thủy tinh cao cấp | lọ thủy tinh cao cấp | chai thủy tinh | bể cá mini | bể nuôi cá | chậu nuôi cá | bình nuôi cá | lọ nuôi cá | Chai Thủy Tinh CH01" /></a>
+                            <a class="btxem" href="/{{path}}" title="Chai Thủy Tinh| Chậu Thủy Tinh | Chậu Thủy Tinh Treo | Chai Thủy Tinh CH01"></a>
+                        </div>
+                        <h3 style="text-align: center; margin: 0;"><a href="/{{path}}" title="Chai Thủy Tinh| Chậu Thủy Tinh | Chậu Thủy Tinh Treo | Chai Thủy Tinh CH01">Ly Thủy Tinh <strong>{{this.productid}}</strong></a></h3>
+                        <p style="text-align: center;"><span style="font-size: 14px;">Giá: <strong><span style="color: #ff0000;">{{this.price-old}} VND</span></strong>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+             {{/each}}
+            
+            <div class="grid-box" style="width:321px; padding-left: 4px;"></div>
+            <br /> </div>
+          
+        
+    </section>
+  <!--end lythuytinh-->
+  <!--start chauthuytinhcaocap-->
+    <section id="cth" class="grid-block">
+
+   
+        <div class="grid-block bg">
+            <div class="tbdiv">
+                <div class="col1dv">
+                    <h2 class="grid-box-title"><a href="http://localhost:8088/chau-thuy-tinh-cao-cap/" title="ChauThuyTinh.Com | Chai Thủy Tinh | Chậu Thủy Tinh Marimo | Chậu Thủy Tinh Treo | Bình Thủy Tinh Treo | Lọ Thủy Tinh Treo">Chậu Thủy Tinh Marimo</a></h2>
+                </div>
+                <div class="col3dv">
+                    <p>
+                        <a href="http://localhost:8088/chau-thuy-tinh-cao-cap/" title="chai thủy tinh | chậu thủy tinh | chậu thủy tinh treo | Bình thủy tinh treo | lọ thủy tinh treo">Xem Tất Cả</a>
+                    </p>
+                </div>
+            </div>
+            {{#each collections.chauthuytinhcaocap}}
+            <div class="grid-box" style="width:321px; padding-left: 4px;">
+                <div class="module mod-line2  deepest">
+                    <div class="imgctt">
+                        <div>
+                            <a href="/{{path}}"><img src="/{{this.img}}" border="0" alt="chau thuy tinh | binh thuy tinh | lo thuy tinh | chai thuy tinh | be ca mini | be nuoi ca| chau nuoi ca | binh nuoi ca | lo nuoi ca | chau trong cay trong nuoc | binh trong cay trong nuoc | chau thuy tinh tieu canh | chau thuy tinh cam hoa | chau thuy tinh trang tri" title="Chậu thủy tinh cao cấp | Bình thủy tinh cao cấp | lọ thủy tinh cao cấp | chai thủy tinh | bể cá mini | bể nuôi cá | chậu nuôi cá | bình nuôi cá | lọ nuôi cá | Chai Thủy Tinh CH01" /></a>
+                            <a class="btxem" href="/{{path}}" title="Chai Thủy Tinh| Chậu Thủy Tinh | Chậu Thủy Tinh Treo | Chai Thủy Tinh CH01"></a>
+                        </div>
+                        <h3 style="text-align: center; margin: 0;"><a href="/{{path}}" title="Chai Thủy Tinh| Chậu Thủy Tinh | Chậu Thủy Tinh Treo | Chai Thủy Tinh CH01">Chậu Thủy Tinh Marimo <strong>{{this.productid}}</strong></a></h3>
+                        <p style="text-align: center;"><span style="font-size: 14px;">Giá: <strong><span style="color: #ff0000;">{{this.price-old}} VND</span></strong>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+             {{/each}}
+            
+            <div class="grid-box" style="width:321px; padding-left: 4px;"></div>
+            <br /> </div>
+          
+        
+    </section>
+  <!--end chauthuytinhcaocap-->
+
+    <!--start chauthuytinh-->
+    <section id="cth" class="grid-block">
+
+   
+        <div class="grid-block bg">
+            <div class="tbdiv">
+                <div class="col1dv">
+                    <h2 class="grid-box-title"><a href="http://localhost:8088/chau-thuy-tinh/" title="ChauThuyTinh.Com | Chai Thủy Tinh | Chậu Thủy Tinh Marimo | Chậu Thủy Tinh Treo | Bình Thủy Tinh Treo | Lọ Thủy Tinh Treo">Chậu Thủy Tinh</a></h2>
+                </div>
+                <div class="col3dv">
+                    <p>
+                        <a href="http://localhost:8088/chau-thuy-tinh/" title="chai thủy tinh | chậu thủy tinh | chậu thủy tinh treo | Bình thủy tinh treo | lọ thủy tinh treo">Xem Tất Cả</a>
+                    </p>
+                </div>
+            </div>
+            {{#each collections.chauthuytinh}}
+            <div class="grid-box" style="width:321px; padding-left: 4px;">
+                <div class="module mod-line2  deepest">
+                    <div class="imgctt">
+                        <div>
+                            <a href="/{{path}}"><img src="/{{this.img}}" border="0" alt="chau thuy tinh | binh thuy tinh | lo thuy tinh | chai thuy tinh | be ca mini | be nuoi ca| chau nuoi ca | binh nuoi ca | lo nuoi ca | chau trong cay trong nuoc | binh trong cay trong nuoc | chau thuy tinh tieu canh | chau thuy tinh cam hoa | chau thuy tinh trang tri" title="Chậu thủy tinh cao cấp | Bình thủy tinh cao cấp | lọ thủy tinh cao cấp | chai thủy tinh | bể cá mini | bể nuôi cá | chậu nuôi cá | bình nuôi cá | lọ nuôi cá | Chai Thủy Tinh CH01" /></a>
+                            <a class="btxem" href="/{{path}}" title="Chai Thủy Tinh| Chậu Thủy Tinh | Chậu Thủy Tinh Treo | Chai Thủy Tinh CH01"></a>
+                        </div>
+                        <h3 style="text-align: center; margin: 0;"><a href="/{{path}}" title="Chai Thủy Tinh| Chậu Thủy Tinh | Chậu Thủy Tinh Treo | Chai Thủy Tinh CH01">Chậu Thủy Tinh <strong>{{this.productid}}</strong></a></h3>
+                        <p style="text-align: center;"><span style="font-size: 14px;">Giá: <strong><span style="color: #ff0000;">{{this.price-old}} VND</span></strong>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+             {{/each}}
+            
+            <div class="grid-box" style="width:321px; padding-left: 4px;"></div>
+            <br /> </div>
+          
+        
+    </section>
+  <!--end chauthuytinh-->
+    <!--start chauthuytinhcaocap-->
+    <section id="cth" class="grid-block">
+
+   
+        <div class="grid-block bg">
+            <div class="tbdiv">
+                <div class="col1dv">
+                    <h2 class="grid-box-title"><a href="http://localhost:8088/phu-lieu/" title="ChauThuyTinh.Com | Chai Thủy Tinh | Chậu Thủy Tinh Marimo | Chậu Thủy Tinh Treo | Bình Thủy Tinh Treo | Lọ Thủy Tinh Treo">Phụ Liệu</a></h2>
+                </div>
+                <div class="col3dv">
+                    <p>
+                        <a href="http://localhost:8088/phu-lieu/" title="chai thủy tinh | chậu thủy tinh | chậu thủy tinh treo | Bình thủy tinh treo | lọ thủy tinh treo">Xem Tất Cả</a>
+                    </p>
+                </div>
+            </div>
+            {{#each collections.phulieu}}
+            <div class="grid-box" style="width:321px; padding-left: 4px;">
+                <div class="module mod-line2  deepest">
+                    <div class="imgctt">
+                        <div>
+                            <a href="/{{path}}"><img src="/{{this.img}}" border="0" alt="chau thuy tinh | binh thuy tinh | lo thuy tinh | chai thuy tinh | be ca mini | be nuoi ca| chau nuoi ca | binh nuoi ca | lo nuoi ca | chau trong cay trong nuoc | binh trong cay trong nuoc | chau thuy tinh tieu canh | chau thuy tinh cam hoa | chau thuy tinh trang tri" title="Chậu thủy tinh cao cấp | Bình thủy tinh cao cấp | lọ thủy tinh cao cấp | chai thủy tinh | bể cá mini | bể nuôi cá | chậu nuôi cá | bình nuôi cá | lọ nuôi cá | Chai Thủy Tinh CH01" /></a>
+                            <a class="btxem" href="/{{path}}" title="Chai Thủy Tinh| Chậu Thủy Tinh | Chậu Thủy Tinh Treo | Chai Thủy Tinh CH01"></a>
+                        </div>
+                        <h3 style="text-align: center; margin: 0;"><a href="/{{path}}" title="Chai Thủy Tinh| Chậu Thủy Tinh | Chậu Thủy Tinh Treo | Chai Thủy Tinh CH01">Phu Liệu <strong>{{this.productid}}</strong></a></h3>
+                        <p style="text-align: center;"><span style="font-size: 14px;">Giá: <strong><span style="color: #ff0000;">{{this.price-old}} VND</span></strong>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+             {{/each}}
+            
+            <div class="grid-box" style="width:321px; padding-left: 4px;"></div>
+            <br /> </div>
+          
+        
+    </section>
+  <!--end phulieu-->
+    <!--start chauthuytinhcaocap-->
+    <section id="cth" class="grid-block">
+
+   
+        <div class="grid-block bg">
+            <div class="tbdiv">
+                <div class="col1dv">
+                    <h2 class="grid-box-title"><a href="http://localhost:8088/chau-cay-go/" title="ChauThuyTinh.Com | Chai Thủy Tinh | Chậu Thủy Tinh Marimo | Chậu Thủy Tinh Treo | Bình Thủy Tinh Treo | Lọ Thủy Tinh Treo">Chậu Cây Gỗ</a></h2>
+                </div>
+                <div class="col3dv">
+                    <p>
+                        <a href="http://localhost:8088/chau-cay-go/" title="chai thủy tinh | chậu thủy tinh | chậu thủy tinh treo | Bình thủy tinh treo | lọ thủy tinh treo">Xem Tất Cả</a>
+                    </p>
+                </div>
+            </div>
+            {{#each collections.chaucaygo}}
+            <div class="grid-box" style="width:321px; padding-left: 4px;">
+                <div class="module mod-line2  deepest">
+                    <div class="imgctt">
+                        <div>
+                            <a href="/{{path}}"><img src="/{{this.img}}" border="0" alt="chau thuy tinh | binh thuy tinh | lo thuy tinh | chai thuy tinh | be ca mini | be nuoi ca| chau nuoi ca | binh nuoi ca | lo nuoi ca | chau trong cay trong nuoc | binh trong cay trong nuoc | chau thuy tinh tieu canh | chau thuy tinh cam hoa | chau thuy tinh trang tri" title="Chậu thủy tinh cao cấp | Bình thủy tinh cao cấp | lọ thủy tinh cao cấp | chai thủy tinh | bể cá mini | bể nuôi cá | chậu nuôi cá | bình nuôi cá | lọ nuôi cá | Chai Thủy Tinh CH01" /></a>
+                            <a class="btxem" href="/{{path}}" title="Chai Thủy Tinh| Chậu Thủy Tinh | Chậu Thủy Tinh Treo | Chai Thủy Tinh CH01"></a>
+                        </div>
+                        <h3 style="text-align: center; margin: 0;"><a href="/{{path}}" title="Chai Thủy Tinh| Chậu Thủy Tinh | Chậu Thủy Tinh Treo | Chai Thủy Tinh CH01">Chậu Cây Gỗ <strong>{{this.productid}}</strong></a></h3>
+                        <p style="text-align: center;"><span style="font-size: 14px;">Giá: <strong><span style="color: #ff0000;">{{this.price-old}} VND</span></strong>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+             {{/each}}
+            
+            <div class="grid-box" style="width:321px; padding-left: 4px;"></div>
+            <br /> </div>
+          
+        
+    </section>
+  <!--end chaugo-->
     <!-- main end -->
-   {{> innerbottom}}
-											
-		
-
-  {{/content}}
-{{/extend}}
+    <!-- main end -->
+    {{> innerbottom}} {{/content}} {{/extend}}

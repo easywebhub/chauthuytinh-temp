@@ -10,7 +10,7 @@
    "source":"Mỹ,Úc,Thái Lan",
    "rule":"1 chậu/1 hộp sản phẩm",
    "height":"16cm",
-    "diameter":"5.5cm"
+    "diameter":"5.5cm",
    "price-old":"25.000",
    "img":"media/k2/items/cache/6fe1c589e796bff64c81da223cb0c48f_S.jpg",
    "image":[  

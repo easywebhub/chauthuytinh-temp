@@ -1,10 +1,7 @@
 ---json
 {  
    "title":"Chậu Thủy Tinh CMT01",
-  
-   
    "layout":"chau-thuy-tinh-post.html",
-  
    "dacbiet":false,
    "date":"2015-11-04",
    "draft":"false",
@@ -12,7 +9,7 @@
    "productid":"CTM09",
    "source":"Mỹ,Úc,Thái Lan.....",
    "rule":"1 chậu/1 hộp sản phẩm",
-   "fit":"Marimo"
+   "fit":"Marimo",
    "price-old":"100.000",
    "img":"media/k2/items/cache/cb9c495b17bc28a44ffb50c55572ed63_S.jpg",
    "product":[  

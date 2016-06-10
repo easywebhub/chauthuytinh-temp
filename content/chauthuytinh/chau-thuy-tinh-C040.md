@@ -4,7 +4,6 @@
    "url":"chau-thuy-tinh-test",
    "description":"Chậu thủy tinh C040",
    "layout":"chau-thuy-tinh-post.html",
-  
    "dacbiet":false,
    "date":"2015-11-04",
    "draft":"false",

@@ -9,16 +9,16 @@
    "productid":"CH04",
    "source":"Mỹ,Úc,Thái Lan",
    "rule":"1 chậu/1 hộp sản phẩm",
-    "height":"19cm",
-    "diameter":"5cm"
-   "price-old":"25.000",
-   "img":"media/k2/items/cache/6cd7000b5fdc149d15c15e2b49b0ac68_S.jpg",
+   "height":"10cm",
+    "diameter":"5.5cm",
+   "price-old":"30.000",
+   "img":"media/k2/items/cache/6fe1c589e796bff64c81da223cb0c48f_S.jpg",
    "image":[  
       {  
-         "url":"media/k2/items/cache/6cd7000b5fdc149d15c15e2b49b0ac68_S.jpg"
+         "url":"media/k2/items/cache/6fe1c589e796bff64c81da223cb0c48f_S.jpg"
       },
       {  
-         "url":"media/k2/items/cache/14539468928e429f2da74154ccea470c_S.jpg"
+         "url":"media/k2/items/cache/7dff099a65b026895942a872c251a542_S.jpg"
       }
    ]
 }
