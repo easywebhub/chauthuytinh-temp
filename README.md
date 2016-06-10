@@ -1,4 +1,4 @@
-### Hướng dẫn sử dụng source EasyWeb Metalsmith
+﻿### Hướng dẫn sử dụng source EasyWeb Metalsmith
 #### Cài đặt
 * clone project (mặc định là branch master)
 * npm install
@@ -72,5 +72,4 @@ site.style = {
         browsers: ['last 2 versions', 'IE >= 9']
     }
 };
-```
-"# chauthuytinh-temp" 
+
